@@ -60,6 +60,19 @@ A subset of a standard Computer Vision dataset, [CIFAR-10](https://www.cs.toront
 
 <br>
 
+#### File Format
+
+<br>
+
+The image dataset has been formatted into 2 csv files.  One for the training set (data/small_train.csv - 500 samples) and one for the validation set (data/small_val.csv - 100 samples).  Within each CSV file, each row represents a single image with each one of the 1025 columns representing individual pixel values within that particular 32 x 32 image.  Though data was pre-formatted, new images can easily be transformed into this format.  However, this format conversion technique is not included in the scope of this project.
+
+
+```
+data/small_train.csv
+data/small_val.csv
+```
+
+
 ## Model
 
 <br>
