@@ -26,8 +26,9 @@ www.michaelhasey.com/neural-network-from-scratch
 
 - [Background](#Background)
 - [Dataset](#Dataset)
-- [Model](#Model)
-- [Implementation](#Implementation)
+- [Model-Architecture](#Model-Architecture)
+- [Implementation-Details](##Implementation-Details)
+- [Command-Line-Arguments](##Command-Line-Arguments)
 - [Performance](#Performance)
 - [References](#References)
 - [Citation](#Citation)
