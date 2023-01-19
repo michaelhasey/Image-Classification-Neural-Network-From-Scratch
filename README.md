@@ -172,23 +172,27 @@ When testing the model, the output is the most probable prediction for each inpu
 When running model/neuralnet.py , the following command line arguments can be used.
 
 ```
-<train input>: path to the training input .csv file
-<validation input>: path to the validation input .csv file
-<train out>: path to output .labels (location where predicted training image labels/classes should be written)
-<validation out>: path to output .labels (location where predicted validation image labels/classes should be written)
-<metrics out>: path of the output .txt file (includes training & validation errors)
-<num epoch>: integer specifying the number of times backpropogation loops through all of the
-training data
-<hidden units>: positive integer specifying the number of hidden units.
-<init flag>: integer taking value 1 or 2 that specifies whether to use RANDOM or ZERO initialization
-<learning rate>: float value specifying the base learning rate for SGD with Adagrad.
+<train input>:   path to the training input .csv file
+<validation input>:   path to the validation input .csv file
+<train out>:   path to output .labels (location where predicted training \
+image labels/classes should be written)
+<validation out>:   path to output .labels (location where predicted validation \
+image labels/classes should be written)
+<metrics out>:   path of the output .txt file (includes training & validation errors)
+<num epoch>:   integer specifying the number of times backpropogation loops through \
+all of the training data
+<hidden units>:   positive integer specifying the number of hidden units.
+<init flag>:   integer taking value 1 or 2 that specifies whether to use RANDOM or ZERO \
+initialization
+<learning rate>:   float value specifying the base learning rate for SGD with Adagrad.
 ```
 <br>
 
 Below is an implimentation example
 
 ```
-$ python3 neuralnet.py smallTrain.csv smallValidation.csv smallTrain_out.labels smallValidation_out.labels smallMetrics_out.txt 2 4 2 0.1
+$ python3 neuralnet.py smallTrain.csv smallValidation.csv \
+smallTrain_out.labels smallValidation_out.labels smallMetrics_out.txt 2 4 2 0.1
 ```
 
 <br>
