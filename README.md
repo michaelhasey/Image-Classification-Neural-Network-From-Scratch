@@ -1,4 +1,4 @@
-# Neural Network from Scratch
+# Image Classification Neural Network from Scratch
 
 <br>
 
