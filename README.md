@@ -189,7 +189,7 @@ initialization
 ```
 <br>
 
-Below is an implimentation example
+Below is an implementation example
 
 ```
 $ python3 neuralnet.py smallTrain.csv smallValidation.csv \
